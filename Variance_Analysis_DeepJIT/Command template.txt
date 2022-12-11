@@ -1,0 +1,7 @@
+python main.py -train -train_data C:\Users\dome1\Desktop\DeepJIT-master\openstack_train.pkl -dictionary_data C:\Users\dome1\Desktop\DeepJIT-master\openstack_dict.pkl
+
+python main.py -predict -pred_data C:\Users\dome1\Desktop\DeepJIT-master\openstack_test.pkl -dictionary_data C:\Users\dome1\Desktop\DeepJIT-master\openstack_dict.pkl -load_model E:\BA\Openstack\GPU\01\01_01\epoch_1.pt
+
+python main.py -train -train_data C:\Users\dome1\Desktop\DeepJIT-master\qt_train.pkl -dictionary_data C:\Users\dome1\Desktop\DeepJIT-master\qt_dict.pkl
+
+python main.py -predict -pred_data C:\Users\dome1\Desktop\DeepJIT-master\qt_test.pkl -dictionary_data C:\Users\dome1\Desktop\DeepJIT-master\qt_dict.pkl -load_model E:\BA\QT\GPU\01\01_01\epoch_1.pt
